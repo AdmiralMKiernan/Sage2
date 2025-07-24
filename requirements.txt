@@ -1,0 +1,33 @@
+# Flask Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+itsdangerous==2.1.2
+click==8.1.7
+blinker==1.6.2
+
+# Database
+# SQLite is included with Python, no additional package needed
+
+# Production WSGI Server
+gunicorn==21.2.0
+
+# Environment Management
+python-dotenv==1.0.0
+
+# Date/Time Utilities
+pytz==2023.3
+
+# JSON Handling (enhanced)
+simplejson==3.19.1
+
+# Security
+cryptography==41.0.4
+
+# HTTP Requests (if needed for external APIs)
+requests==2.31.0
+
+# Development and Testing (optional)
+# pytest==7.4.2
+# pytest-flask==1.2.0
